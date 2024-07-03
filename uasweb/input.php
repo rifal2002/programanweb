@@ -50,7 +50,7 @@ $standings = $conn->query("SELECT g.name as group_name, c.name as country_name, 
 <body>
 <h1>Data Group B</h1>
 <p><?php echo date('l, d F Y H:i:s'); ?></p> 
-<p><b>201011401941</b></p>
+<p><b>201011401119</b></p>
     <form method="post" action="">
         <label>Group:</label>
         <select name="group">
@@ -72,7 +72,7 @@ $standings = $conn->query("SELECT g.name as group_name, c.name as country_name, 
         <input type="number" name="losses" required>
         <input type="submit" value="Simpan">
 
-        <a href="index.php">HOME</a>
+        <a href="index.php">HALAMAN AWAL</a>
     </form>
 
     <h2>Hasil Standings</h2>
