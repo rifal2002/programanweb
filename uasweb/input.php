@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'db.php';
+include 'koneksi.php';
 
 if (!isset($_SESSION['nim'])) {
     header("Location: login.php");
